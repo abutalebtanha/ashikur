@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap')
+<style>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@300;400;500;600;700&display=swap')
+</style>
+
+/* common css  */
+:root{
+  --PrimaryFont:"Poppins", sans-serif;
+  --secondaryFont:"PT Sans", sans-serif; 
+}
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  ul,ol{
+    list-style: none;
+  }
+  h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: var(--PrimaryFont);
+  }
+  
+
+  /* common css end  */
+
+  /* navbar start */
+    #ourmanu ul li a{
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 200%;
+      color: #353535;
+      padding: 18px 22px 5px;
+    }
+    
+    #ourmanu ul li a::after{
+      content: '';
+    }
+
+
+
+  /* navbar end */
+
+/* banner st */
+  #banner .contains a{
+    padding: 18px 0 13px 32px;
+    background-color: #FFCC00;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-decoration: none;
+  }
+  #banner .contains h4{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #353535;
+  }
+  #banner .contains h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+  }
+  
+  #banner .contains p{
+    padding: 25px 0 45px;
+  }
+
+
+  /* about st */
+  #about .container .about-containts a{
+    background-color: #FFCC00;
+    padding: 17px 44px 17px 43px;
+    display: inline-block;
+    border-radius: 20%;
+    border: 1px solid #000000;
+  }
+  #about {
+    position: relative;
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+  }
+  #about .row{
+    align-items: center;
+  }
+  #about .row .about-containts h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+  }
+  #about .row .about-containts p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    margin: 26px 0 45px;
+  }
+ 
+  .about-containts img.aboutshap{
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+  }
+
+
+  /* about end */
+
+/* footer start */
+footer{
+    background-image: url(../IMAGES/Group\ 215.png);
+}
+
+.middle-content h4{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 200%;
+    color: #fff;
+}
+.middle-content p{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 180%;
+text-align: justify;
+color: #bbb9b9;
+}
+footer .last-content a{
+    padding: 18px 0 13px 32px;
+    background-color: #FFCC00;
+    color: #FFFFFF;
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 180%;
+    color: #fff;
+    font-family: var(--font-family);
+}
+footer .last-content a i{
+    padding: 5px 33px 5px 11px;
+  
+}
+footer .first-row{
+    padding-top: 71px;
+}
+footer .icons a{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #484848;
+    display: inline-block;
+    text-align: center;
+    line-height: 48px;
+    color: #fff;
+    transition: .5s;
+}
+footer .icons a:hover{
+    background-color: #FFCC00;
+}
+footer .second-row{
+    padding: 94px 0 85px 0;
+    color: #fff;
+}
+.second-row a{
+    color: #fff;
+}
+#banner .contains{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center ;
+}
+
+
+/* footer end */
